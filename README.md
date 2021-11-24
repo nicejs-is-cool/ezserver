@@ -1,5 +1,7 @@
 # ezserver
 lil thing i made to make writing servers quicker
+### Install
+`npm i -g ezserver`
 ### Example
 ```yml
 server:
@@ -21,3 +23,4 @@ server:
         - request-query
         - server-yml:server
 ```
+Run `ezserver run <name>.server.yml` or run `ezserver build <name>.server.yml -o out.js` to compile the server.
