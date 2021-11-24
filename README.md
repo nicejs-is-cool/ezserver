@@ -45,12 +45,12 @@ $ ezserver <run/build> <filename> [-o <outputFilename>]
 ```
 ### Documentation
 This is the documentation to the server key of the server yml file.
-| Name             | Value type | Description                           |
-|------------------|------------|---------------------------------------|
-| port             | number     | The port the server is gonna run on   |
-| listeningMessage | string     | The message to display on listening   |
-| views            | string     | Path to the views folder used by EJS. |
-| routes           | route[]    | List of routes used by the server.    |
+| Name             | Value type           | Description                           |
+|------------------|----------------------|---------------------------------------|
+| port             | number               | The port the server is gonna run on   |
+| listeningMessage | string               | The message to display on listening   |
+| views            | string               | Path to the views folder used by EJS. |
+| routes           | [route](#route)[]    | List of routes used by the server.    |
 #### route
 | Name       | Value type | Description                                                                   |
 |------------|------------|-------------------------------------------------------------------------------|
@@ -59,5 +59,5 @@ This is the documentation to the server key of the server yml file.
 |  filepath? | string     | File path used on static pages.                                               |
 |  location? | string     | Location to redirect users on redirect pages                                  |
 |    view?   | string     | EJS file relative path from the views folder defined by the views key         |
-|permissions?| string[]   | The permissions the dynamic (ejs) page has.                                   |
+|permissions?| string[]   | The [permissions](#Permissions) the dynamic (ejs) page has.                   |
 
