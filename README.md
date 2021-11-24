@@ -3,6 +3,7 @@ lil thing i made to make writing servers quicker
 ### Install
 `npm i -g qezserver`
 ### Example
+(*Note ezserver uses ejs as its templating engine*)
 ```yml
 server:
   port: 3005
