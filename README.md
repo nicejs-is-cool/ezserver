@@ -1,7 +1,7 @@
 # ezserver
 lil thing i made to make writing servers quicker
 ### Install
-`npm i -g ezserver`
+`npm i -g qezserver`
 ### Example
 ```yml
 server:

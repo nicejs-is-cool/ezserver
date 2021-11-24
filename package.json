@@ -1,20 +1,34 @@
 {
-  "name": "ezserver",
+  "name": "qezserver",
   "version": "0.0.1",
-  "description": "",
+  "description": "lil thing i made to make writing servers quicker and easy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "./cli.js",
+  "bin": {
+    "ezserver": "cli.js"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@vercel/ncc": "^0.32.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "pkg": "^5.4.1",
     "yml": "^1.0.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicejs-is-cool/ezserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicejs-is-cool/ezserver/issues"
+  },
+  "homepage": "https://github.com/nicejs-is-cool/ezserver#readme"
 }
