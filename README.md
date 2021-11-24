@@ -41,7 +41,7 @@ Here's a list of them
 - filesystem:read - gives access to `readFileSync` from the `fs` module
 ### Command line usage
 ```bash
-$ ezserver <run/build> <filename> [-o <outputFilename>]
+$ ezserver <run/build> <filename> [-o <outputFilename>] [--skip-ncc] [--use-pkg] [--pkg-target <target>]
 ```
 ### Documentation
 This is the documentation to the server key of the server yml file.
