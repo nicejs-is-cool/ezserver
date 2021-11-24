@@ -38,3 +38,7 @@ Here's a list of them
 - server-yml:server - gives you access to the server key of the yml server file
 - filesystem:write - gives access to `writeFileSync` from the `fs` module
 - filesystem:read - gives access to `readFileSync` from the `fs` module
+### Command line usage
+```bash
+$ ezserver <run/build> <filename> [-o <outputFilename>]
+```
